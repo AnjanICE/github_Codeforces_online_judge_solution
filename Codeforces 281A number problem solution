@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <math.h>
+main()
+{
+    char word[1000000];
+    scanf("%[^\n]s",word);
+        word[0]=toupper(word[0]);
+        printf("%s",word);
+        return 0;
+}
